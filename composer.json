@@ -40,10 +40,17 @@
 		}
 	],
 	"repositories": [
+
+		{
+			"type": "vcs",
+			"url": "https://github.com/kwibisam/bacularis-common.git"
+		},
+
 		{
 			"type": "composer",
 			"url": "https://asset-packagist.org"
 		}
+
 	],
 	"require": {
 		"php": ">=7.4.0",
@@ -66,7 +73,7 @@
 		"npm-asset/flotr2": "^0",
 		"npm-asset/qrcodejs": "^1",
 		"pradosoft/prado": "4.2.2",
-		"bacularis/bacularis-common": "*"
+		"bacularis/bacularis-common": "dev-main"
 	},
 	"require-dev": {
 		"phpstan/phpstan": "1.8.11",
